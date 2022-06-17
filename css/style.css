@@ -81,6 +81,11 @@
 /* mobile view */
 @media (max-width: 426px) {
 
+    .exp {
+        padding-left: 10px !important;
+        margin: 0 !important;
+    }
+
     .home-button{
         font-size: 12px !important;
         padding-left: 10px !important;
@@ -98,11 +103,11 @@
     }
 
     #Swasthu .row p {
-        width: 45%;
+        width: 100%;
         text-align: center;
     }
 
-    #Swasthu .container-fluid, imag {
+    #Swasthu .container-fluid, .imag {
         display: none;
     }
 
@@ -122,6 +127,9 @@
 
     #footer .footer-1 input {
         width: 500px;
+    }
+     body nav {
+        /* display: none; */
     }
 
 }
