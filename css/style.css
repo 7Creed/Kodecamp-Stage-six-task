@@ -89,11 +89,16 @@
     .home-button{
         font-size: 12px !important;
         padding-left: 10px !important;
-        padding-right: 10px !important;
     }
     .home-text{
         left: 60%;
         margin-left: 100px;
+    }
+
+    .cards {
+        padding: 0 !important;
+        margin: 0 !important;
+        /* width: 300px !important; */
     }
 
 
@@ -128,8 +133,38 @@
     #footer .footer-1 input {
         width: 500px;
     }
-     body nav {
-        /* display: none; */
+    
+
+}
+
+
+
+
+/* Tab view */
+@media (min-width: 427px) and (max-width: 770px) {
+
+    .exp {
+        padding-left: 10px !important;
+        margin: 0 !important;
     }
 
+    .home-button {
+        font-size: 12px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .home-text {
+        /* left: 60%; */
+        margin-left: 50%;
+    }
+
+    .cen {
+        text-align: left !important;
+    }
+
+    .app3 {
+        margin: auto;
+        margin-top: 25%;
+    }
 }
